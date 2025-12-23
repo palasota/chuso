@@ -279,7 +279,9 @@ overflow: visible;}
   .info-card { padding: 12px 14px 12px 54px; font-size:15px; }
 
   .hero-logo {
-    height: 110px;
+   top: 20px; left: 20px;
+    height: 110px2
+     
   }
    
   .cta-hero { position: static; width:100%; margin-top: 14px; margin-bottom:40px; padding:14px 0; font-size:18px; border-radius:12px; }
@@ -298,7 +300,7 @@ overflow: visible;}
 
 @media (max-width: 480px) {
   .hero-title { font-size: clamp(22px, 6vw, 36px); }
-  .hero-logo { height:100px; }
+  .hero-logo { top: 10px; left: 10px; height:100px; }
   .info-card { padding: 10px 12px 10px 48px; font-size:14px; }
   .cta-hero { font-size:16px; padding:12px; border-radius:10px; }
 }
@@ -994,5 +996,6 @@ padding:0;
   }
 
 }
+
 
 
